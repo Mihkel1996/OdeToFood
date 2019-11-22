@@ -19,7 +19,7 @@ namespace OdeToFood.Controllers
         {
             var Model = new AboutModel();
             Model.Name = "Mihkel";
-            Model.Age = "22";
+            Model.Age = 22;
             Model.Location = "Tallinn, Estonia";
             return View(Model);
         }
