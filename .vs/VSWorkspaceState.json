@@ -1,20 +1,16 @@
 {
   "ExpandedNodes": [
     "",
+    "\\Controllers",
+    "\\fonts",
+    "\\Models",
     "\\OdeToFood",
     "\\OdeToFood.Tests",
     "\\OdeToFood.Tests\\bin",
-    "\\OdeToFood.Tests\\bin\\Debug",
-    "\\OdeToFood.Tests\\Controllers",
-    "\\OdeToFood.Tests\\obj",
-    "\\OdeToFood.Tests\\obj\\Debug",
-    "\\OdeToFood.Tests\\obj\\Release",
-    "\\OdeToFood.Tests\\Properties",
-    "\\OdeToFood\\obj",
-    "\\OdeToFood\\obj\\Release",
     "\\Views",
-    "\\Views\\Home"
+    "\\Views\\Home",
+    "\\Views\\Paimla"
   ],
-  "SelectedNode": "\\Views\\Home\\About.cshtml",
+  "SelectedNode": "\\Controllers\\PaimlaController.cs",
   "PreviewInSolutionExplorer": false
 }

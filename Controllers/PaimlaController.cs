@@ -9,9 +9,9 @@ namespace OdeToFood.Controllers
     public class PaimlaController : Controller
     {
         // GET: Paimla
-        public ActionResult Search(string Country, string Food)
+        public ActionResult Found(string country, string food)
         {
-            return Content(Country, Food);
+            return Content(country, food);
         }
     }
 }

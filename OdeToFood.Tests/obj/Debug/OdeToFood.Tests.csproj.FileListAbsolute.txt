@@ -33,3 +33,7 @@ C:\Users\opilane\Documents\Visual Studio 2017\Projects\TARpe18\OdeToFood\OdeToFo
 C:\Users\opilane\Documents\Visual Studio 2017\Projects\TARpe18\OdeToFood\OdeToFood.Tests\obj\Debug\OdeToFood.Tests.csproj.CopyComplete
 C:\Users\opilane\Documents\Visual Studio 2017\Projects\TARpe18\OdeToFood\OdeToFood.Tests\obj\Debug\OdeToFood.Tests.dll
 C:\Users\opilane\Documents\Visual Studio 2017\Projects\TARpe18\OdeToFood\OdeToFood.Tests\obj\Debug\OdeToFood.Tests.pdb
+C:\Users\opilane\Source\Repos\TARpe18_MJP\OdeToFood\OdeToFood\OdeToFood.Tests\obj\Debug\OdeToFood.Tests.csprojAssemblyReference.cache
+C:\Users\opilane\Source\Repos\TARpe18_MJP\OdeToFood\OdeToFood\OdeToFood.Tests\obj\Debug\OdeToFood.Tests.csproj.CoreCompileInputs.cache
+C:\Users\opilane\Source\Repos\TARpe18_MJP\OdeToFood\OdeToFood\OdeToFood.Tests\obj\Debug\OdeToFood.Tests.dll
+C:\Users\opilane\Source\Repos\TARpe18_MJP\OdeToFood\OdeToFood\OdeToFood.Tests\obj\Debug\OdeToFood.Tests.pdb
