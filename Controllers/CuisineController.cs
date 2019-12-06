@@ -6,6 +6,7 @@ using System.Web.Mvc;
 
 namespace OdeToFood.Controllers
 {
+    //[Authorize]
     public class CuisineController : Controller
     {
         // GET: Cuisine
@@ -13,7 +14,7 @@ namespace OdeToFood.Controllers
         {
             throw new Exception("Something terrible has happened!");
 
-
+            var message = Server.HtmlEncode(name);
             return Content("Hello "+name);
         }
     }
