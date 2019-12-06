@@ -270,3 +270,7 @@ C:\Users\opilane\Source\Repos\TARpe18_MJP\OdeToFood\OdeToFood\bin\System.Buffers
 C:\Users\opilane\Source\Repos\TARpe18_MJP\OdeToFood\OdeToFood\bin\System.Memory.xml
 C:\Users\opilane\Source\Repos\TARpe18_MJP\OdeToFood\OdeToFood\bin\System.Numerics.Vectors.xml
 C:\Users\opilane\Source\Repos\TARpe18_MJP\OdeToFood\OdeToFood\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\opilane\Source\Repos\TARpe18_MJP\OdeToFood\OdeToFood\bin\EntityFramework.dll
+C:\Users\opilane\Source\Repos\TARpe18_MJP\OdeToFood\OdeToFood\bin\EntityFramework.SqlServer.dll
+C:\Users\opilane\Source\Repos\TARpe18_MJP\OdeToFood\OdeToFood\bin\EntityFramework.xml
+C:\Users\opilane\Source\Repos\TARpe18_MJP\OdeToFood\OdeToFood\bin\EntityFramework.SqlServer.xml
