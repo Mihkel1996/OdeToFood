@@ -1,6 +1,7 @@
 ﻿using OdeToFood.Models;
 using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
@@ -82,6 +83,25 @@ namespace OdeToFood.Controllers
             if (ModelState.IsValid)
             {
                 db.Reviews.Add(review);
+                db.SaveChanges();
+                return RedirectToAction("Index", new { id = review.RestaurantId });
+            }
+            return View(review);
+        }
+
+        [HttpGet]
+        public ActionResult Edit(int id)
+        {
+            var model = db.Reviews.Find(id);
+            return View(model);
+        }
+
+        [HttpPost]
+        public ActionResult Edit (RestaurantReview review)
+        {
+            if (ModelState.IsValid)
+            {
+                db.Entry(review).State = EntityState.Modified;
                 db.SaveChanges();
                 return RedirectToAction("Index", new { id = review.RestaurantId });
             }

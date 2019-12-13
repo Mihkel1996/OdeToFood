@@ -148,6 +148,11 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201912121331121_InitialCreate.cs" />
+    <Compile Include="Migrations\201912121331121_InitialCreate.designer.cs">
+      <DependentUpon>201912121331121_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AboutModel.cs" />
     <Compile Include="Models\OdeToFoodDb.cs" />
     <Compile Include="Models\Restaurant.cs" />
@@ -202,7 +207,7 @@
     <Content Include="Scripts\jquery-3.4.1.min.map" />
     <Content Include="Views\Reviews\LatestReviews.cshtml" />
     <Content Include="Views\Reviews\Edit.cshtml" />
-    <Content Include="Views\Shared\_Review.cshtml" />
+    <Content Include="Views\Reviews\_Review.cshtml" />
     <Content Include="Views\Restaurants\Create.cshtml" />
     <Content Include="Views\Restaurants\Delete.cshtml" />
     <Content Include="Views\Restaurants\Edit.cshtml" />
@@ -224,6 +229,11 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201912121331121_InitialCreate.resx">
+      <DependentUpon>201912121331121_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

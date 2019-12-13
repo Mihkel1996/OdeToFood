@@ -274,3 +274,5 @@ C:\Users\opilane\Source\Repos\TARpe18_MJP\OdeToFood\OdeToFood\bin\EntityFramewor
 C:\Users\opilane\Source\Repos\TARpe18_MJP\OdeToFood\OdeToFood\bin\EntityFramework.SqlServer.dll
 C:\Users\opilane\Source\Repos\TARpe18_MJP\OdeToFood\OdeToFood\bin\EntityFramework.xml
 C:\Users\opilane\Source\Repos\TARpe18_MJP\OdeToFood\OdeToFood\bin\EntityFramework.SqlServer.xml
+C:\Users\opilane\Source\Repos\TARpe18_MJP\OdeToFood\OdeToFood\obj\Debug\OdeToFood.Migrations.InitialCreate.resources
+C:\Users\opilane\Source\Repos\TARpe18_MJP\OdeToFood\OdeToFood\obj\Debug\OdeToFood.csproj.GenerateResource.cache
