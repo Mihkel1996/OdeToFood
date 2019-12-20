@@ -12,7 +12,6 @@ namespace OdeToFood.Controllers
         // GET: Cuisine
         public ActionResult Search(string name)
         {
-            throw new Exception("Something terrible has happened!");
 
             var message = Server.HtmlEncode(name);
             return Content("Hello "+name);

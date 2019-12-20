@@ -19,6 +19,7 @@ namespace OdeToFood.Models
         [StringLength(1024)]
         public string Body { get; set; }
         public int RestaurantId { get; set; }
+        [Display(Name = "Username")]
         public string ReviewerName { get; set; }
     }
 }
