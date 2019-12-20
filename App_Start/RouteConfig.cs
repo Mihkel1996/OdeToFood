@@ -16,15 +16,14 @@ namespace OdeToFood
             routes.MapRoute(
                 name: "Cuisine",
                 url: "cuisine/{name}",
-                defaults: new {controller = "Cuisine", action="Search", name = UrlParameter.Optional }
+                defaults: new {controller = "Cuisine", action= "Search", name = UrlParameter.Optional }
 
             );
 
             routes.MapRoute(
                 name: "Paimla",
                 url: "paimla/{country}/{food}",
-                defaults: new { controller = "Paimla", action = "Found", country = UrlParameter.Optional, food = UrlParameter.Optional },
-                constraints: new { id = @"\d+" }
+                defaults: new { controller = "Paimla", action = "Search", country = UrlParameter.Optional, food = UrlParameter.Optional }
             );
 
             routes.MapRoute(

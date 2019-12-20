@@ -9,9 +9,16 @@ namespace OdeToFood.Controllers
     public class PaimlaController : Controller
     {
         // GET: Paimla
-        public ActionResult Found(string country, string food)
+        public ActionResult Search(string country, string food)
         {
-            return Content(country, food);
+            /*var controller = RouteData.Values["controller"];
+            var action = RouteData.Values["action"];
+
+            var message = String.Format("{0}::{1}::{2}::{3}", controller, action, country, food);
+
+            ViewBag.Message = message;*/
+
+            return Content(country + " " + food);
         }
     }
 }

@@ -97,16 +97,16 @@ namespace OdeToFood.Controllers
         }
 
         [HttpPost]
-        public ActionResult Edit (EditReviewViewModel review)
+        public ActionResult Edit ([Bind(Exclude ="ReviewerName")]RestaurantReview review)
         {
             if (ModelState.IsValid)
             {
                 var editable_review = db.Reviews.Find(review.Id);
                 editable_review.Body = review.Body;
                 editable_review.Rating = review.Rating;
-                db.Entry(review).State = EntityState.Modified;
+                db.Entry(editable_review).State = EntityState.Modified;
                 db.SaveChanges();
-                return RedirectToAction("Index", new { id = 1 });
+                return RedirectToAction("Index", new { id = editable_review.RestaurantId });
             }
             return View(review);
         }
