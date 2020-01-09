@@ -3,26 +3,44 @@
 @{
     ViewBag.Title = "Home Page";
 }
+<div style="height:400px">
+
+</div>
 <div class="jumbotron">
     <h1>@ViewBag.message</h1>
     <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
     <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
 </div>
-
-<div>
-    <form method="get">
+@*<div>*@
+    <form method="get" action="@Url.Action("Index")"
+          data-otf-ajax="true"
+          data-otf-target="#restaurantList">
 
         <input type="search" name="searchTerm" />
         <input type="submit" value="Search By Name" />
     </form>
-</div>
+@*</div>*@
 
-@foreach(var item in Model)
+@*@using (Ajax.BeginForm(new AjaxOptions
+{
+    HttpMethod = "get",
+    InsertionMode = InsertionMode.Replace,
+    UpdateTargetId = "restaurantList"
+}
+    ))
+{
+    <input type="search" name="searchTerm" />
+    <input type="submit" value="Search By Name" />
+}*@
+
+@Html.Partial("_Restaurants",Model)
+
+@foreach (var item in Model)
 {
     <div>
         <h4>@item.Name</h4>
         <div>@item.City, @item.Country</div>
-        <div></div>
+        <div>Reviews count: @item.CountOfReviews</div>
         <hr />
 
     </div>

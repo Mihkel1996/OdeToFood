@@ -37,15 +37,18 @@ namespace OdeToFood.Controllers
                             CountOfReviews = r.Reviews.Count()
                         }
                 );
-
+            if (Request.IsAjaxRequest())
+            {
+                return PartialView("_Restaurants", model);
+            }
             return View(model);
-            /*ViewBag.Message = "Modify this template to jump-start yourASP.NET MVC application.";
-            var controller = RouteData.Values["controller"];
-            var action = RouteData.Values["action"];
-            var id = RouteData.Values["id"];
-            ViewBag.Message = $"{controller} :: {action} - {id}";
-            return View();*/
-        }
+        /*ViewBag.Message = "Modify this template to jump-start yourASP.NET MVC application.";
+        var controller = RouteData.Values["controller"];
+        var action = RouteData.Values["action"];
+        var id = RouteData.Values["id"];
+        ViewBag.Message = $"{controller} :: {action} - {id}";
+        return View();*/
+    }
 
         public ActionResult About()
         {

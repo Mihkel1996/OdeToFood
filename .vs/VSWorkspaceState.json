@@ -11,6 +11,6 @@
     "\\Views\\Home",
     "\\Views\\Paimla"
   ],
-  "SelectedNode": "\\Controllers\\PaimlaController.cs",
+  "SelectedNode": "\\Views\\Home\\Index.cshtml",
   "PreviewInSolutionExplorer": false
 }
