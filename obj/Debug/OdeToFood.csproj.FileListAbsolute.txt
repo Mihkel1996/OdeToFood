@@ -278,3 +278,7 @@ C:\Users\opilane\Source\Repos\TARpe18_MJP\OdeToFood\OdeToFood\bin\PagedList.dll
 C:\Users\opilane\Source\Repos\TARpe18_MJP\OdeToFood\OdeToFood\bin\PagedList.Mvc.dll
 C:\Users\opilane\Source\Repos\TARpe18_MJP\OdeToFood\OdeToFood\bin\PagedList.xml
 C:\Users\opilane\Source\Repos\TARpe18_MJP\OdeToFood\OdeToFood\bin\PagedList.Mvc.xml
+C:\Users\opilane\Source\Repos\TARpe18_MJP\OdeToFood\OdeToFood\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\opilane\Source\Repos\TARpe18_MJP\OdeToFood\OdeToFood\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\opilane\Source\Repos\TARpe18_MJP\OdeToFood\OdeToFood\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\opilane\Source\Repos\TARpe18_MJP\OdeToFood\OdeToFood\bin\Microsoft.AspNet.Identity.EntityFramework.xml
