@@ -21,5 +21,10 @@ namespace OdeToFood.Models
         public int RestaurantId { get; set; }
         [Display(Name = "Username")]
         public string ReviewerName { get; set; }
+
+        public object ComputeRating(int v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
